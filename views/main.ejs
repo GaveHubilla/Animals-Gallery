@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Cute Animals Gallery</title>
+</head>
+<body>
+
+<a href="http://localhost:3000/" style="text-decoration: none;"><h1>Cute Animals Gallery</h1></a>
+
+<img src="/images/ohainu.jpg" alt="main inu picture"/>
+
+<form action="/pictures" method="POST">
+    <input type="submit" name="category" value="Shiba Pictures">
+    <input type="submit" name="category" value="Cat Pictures">
+    <input type="submit" name="category" value="Bird Pictures">
+</form>
+
+<footer>
+    <p>Copyright GaveHubs© <%= new Date().getFullYear() %></p>
+  </footer>
+
+</body>
+</html>
+
+
+ 

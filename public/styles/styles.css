@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #82DDF0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  color: #4a4242;
+}
+
+#picturesContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img[src="/images/ohainu.jpg"] {
+  width: 800px;
+  height: 400px;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 5%;
+}
+
+img {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 5%;
+}
+
+
+  
+form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  padding: 2px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4fcad2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin: 10px;
+  
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
