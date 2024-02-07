@@ -1,3 +1,5 @@
+const API_KEY = process.env.API_KEY;
+
 import express from "express";
 import axios from "axios";
 
