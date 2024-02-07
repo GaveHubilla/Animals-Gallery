@@ -64,3 +64,18 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #45a049;
 }
+
+@media(max-width: 480px){
+  img {
+    width: 380px;
+    height: 280px;
+  }
+  
+  img[src="/images/ohainu.jpg"] {
+    width: 380px;
+    height: 280px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 5%;
+  }
+}
